@@ -2,12 +2,13 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace DAL.Implementation.Models
+namespace DAL.Interfaces.Models
 {
-   public class Category
+   public class Film
     {
         public Guid Id { get; set; }
         public string Name { get; set; }
+        public string Description { get; set; }
         public  ICollection<CategoryFilm> CategoryFilms { get; set; }
     }
 }

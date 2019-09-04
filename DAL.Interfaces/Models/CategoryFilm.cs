@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace DAL.Implementation.Models
+namespace DAL.Interfaces.Models
 {
   public  class CategoryFilm
     {
