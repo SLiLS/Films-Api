@@ -6,7 +6,7 @@ using DAL.Interfaces.Repository.Interfaces.Base;
 
 namespace DAL.Interfaces.Repository.Interfaces
 {
-    interface ICategoryRepository : IBaseRepository<Category, Guid>
+  public  interface ICategoryRepository : IBaseRepository<Category, Guid>
     {
     }
 }

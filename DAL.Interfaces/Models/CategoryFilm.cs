@@ -8,8 +8,8 @@ namespace DAL.Interfaces.Models
     {
         public Guid Id { get; set; }
         public Guid CategoryId { get; set; }
-        public virtual Category Category { get; set; }
+        public  Category Category { get; set; }
         public Guid FilmId { get; set; }
-        public  Film Film { get; set; }
+        public Film Film { get; set; }
     }
 }
