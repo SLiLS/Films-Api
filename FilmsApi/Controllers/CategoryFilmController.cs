@@ -9,12 +9,7 @@ namespace FilmsApi.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class FilmController : ControllerBase
+    public class CategoryFilmController : ControllerBase
     {
-        public async Task<IActionResult> GetAll()
-        {
-            return Ok("res");
-          
-        }
     }
 }
